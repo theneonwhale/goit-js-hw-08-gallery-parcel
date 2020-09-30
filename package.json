@@ -1,0 +1,28 @@
+{
+  "name": "goit-js-hw-08-gallery-parcel",
+  "version": "1.0.0",
+  "description": "goit-js-hm-08-gallery-parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-08-gallery-parcel/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theneonwhale/goit-js-hw-08-gallery-parcel.git"
+  },
+  "author": "Andrii Kylymnyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theneonwhale/goit-js-hw-08-gallery-parcel/issues"
+  },
+  "homepage": "https://github.com/theneonwhale/goit-js-hw-08-gallery-parcel#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.11"
+  }
+}
